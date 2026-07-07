@@ -2,116 +2,118 @@
   <defs>
     <!-- Background Gradient -->
     <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0F172A" />
-      <stop offset="100%" stop-color="#070A12" />
+      <stop offset="0%" stop-color="#0A0D1B" />
+      <stop offset="100%" stop-color="#04060E" />
     </linearGradient>
 
     <!-- Border Gradient -->
     <linearGradient id="border-glow" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.3" />
-      <stop offset="100%" stop-color="#8B5CF6" stop-opacity="0.2" />
+      <stop offset="0%" stop-color="#00F2FE" />
+      <stop offset="50%" stop-color="#8B5CF6" stop-opacity="0.2" />
+      <stop offset="100%" stop-color="#FF2E93" />
     </linearGradient>
 
     <!-- Central Track Gradient -->
     <linearGradient id="track-grad" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#38BDF8" />
-      <stop offset="50%" stop-color="#8B5CF6" />
-      <stop offset="100%" stop-color="#38BDF8" />
+      <stop offset="0%" stop-color="#00F2FE" />
+      <stop offset="35%" stop-color="#D946EF" />
+      <stop offset="70%" stop-color="#8B5CF6" />
+      <stop offset="100%" stop-color="#00F2FE" />
     </linearGradient>
 
-    <radialGradient id="node-glow-blue" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.4" />
-      <stop offset="100%" stop-color="#38BDF8" stop-opacity="0" />
+    <radialGradient id="node-glow-cyan" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#00F2FE" stop-opacity="0.5" />
+      <stop offset="100%" stop-color="#00F2FE" stop-opacity="0" />
     </radialGradient>
     
-    <radialGradient id="node-glow-purple" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#8B5CF6" stop-opacity="0.4" />
-      <stop offset="100%" stop-color="#8B5CF6" stop-opacity="0" />
+    <radialGradient id="node-glow-pink" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FF2E93" stop-opacity="0.5" />
+      <stop offset="100%" stop-color="#FF2E93" stop-opacity="0" />
     </radialGradient>
   </defs>
 
   <!-- Card Background & Border -->
   <rect width="840" height="480" fill="url(#bg)" rx="12" />
-  <rect x="0.5" y="0.5" width="839" height="479" rx="11.5" stroke="url(#border-glow)" stroke-width="1" />
+  <rect x="0.5" y="0.5" width="839" height="479" rx="11.5" stroke="url(#border-glow)" stroke-width="1.2" />
 
   <!-- Title -->
   <text x="420" y="32" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="700" fill="#94A3B8" letter-spacing="3" text-anchor="middle">DEVELOPER JOURNEY</text>
 
   <!-- Central Track Line -->
-  <line x1="420" y1="55" x2="420" y2="435" stroke="url(#track-grad)" stroke-width="2" stroke-opacity="0.4" />
-  <line x1="420" y1="55" x2="420" y2="435" stroke="url(#track-grad)" stroke-width="6" stroke-opacity="0.1" />
+  <line x1="420" y1="55" x2="420" y2="435" stroke="url(#track-grad)" stroke-width="2.5" />
+  <line x1="420" y1="55" x2="420" y2="435" stroke="url(#track-grad)" stroke-width="8" stroke-opacity="0.15" />
 
   <!-- Animated Traveling Orb on Track -->
-  <circle cx="420" cy="55" r="4" fill="#38BDF8">
-    <animate attributeName="cy" values="55;435;55" dur="10s" repeatCount="indefinite" />
-    <animate attributeName="fill" values="#38BDF8;#8B5CF6;#38BDF8" dur="10s" repeatCount="indefinite" />
+  <circle cx="420" cy="55" r="5" fill="#FF2E93">
+    <animate attributeName="cy" values="55;435;55" dur="9s" repeatCount="indefinite" />
+    <animate attributeName="fill" values="#FF2E93;#00F2FE;#8B5CF6;#FF2E93" dur="9s" repeatCount="indefinite" />
   </circle>
 
-  <!-- ================= TIMELINE NODES & DETAILS ================= -->
+  <!-- ================= TIMELINE NODES ================= -->
 
   <!-- NODE 1: March 2025 (Left) -->
   <g>
-    <circle cx="420" cy="70" r="12" fill="url(#node-glow-blue)" />
-    <circle cx="420" cy="70" r="4" fill="#38BDF8" />
+    <circle cx="420" cy="70" r="14" fill="url(#node-glow-cyan)" />
+    <circle cx="420" cy="70" r="5" fill="#00F2FE" />
     <text font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" text-anchor="end">
       <tspan x="390" y="68" font-size="13" font-weight="700" fill="#F8FAFC">Started Programming</tspan>
       <tspan x="390" y="84" font-size="11" font-weight="400" fill="#94A3B8">Began writing HTML &amp; CSS layouts and building initial web structures.</tspan>
     </text>
-    <text x="440" y="75" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="800" fill="#38BDF8" text-anchor="start">MAR 2025</text>
+    <text x="445" y="75" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="800" fill="#00F2FE" text-anchor="start">MAR 2025</text>
   </g>
 
   <!-- NODE 2: November 2025 (Right) -->
   <g>
-    <circle cx="420" cy="140" r="12" fill="url(#node-glow-purple)" />
-    <circle cx="420" cy="140" r="4" fill="#8B5CF6" />
+    <circle cx="420" cy="140" r="14" fill="url(#node-glow-pink)" />
+    <circle cx="420" cy="140" r="5" fill="#FF2E93" />
     <text font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" text-anchor="start">
       <tspan x="450" y="138" font-size="13" font-weight="700" fill="#F8FAFC">Version Control &amp; React basics</tspan>
       <tspan x="450" y="154" font-size="11" font-weight="400" fill="#94A3B8">Integrated Git workflows and started exploring component-based React architectures.</tspan>
     </text>
-    <text x="370" y="145" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="800" fill="#8B5CF6" text-anchor="end">NOV 2025</text>
+    <text x="365" y="145" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="800" fill="#FF2E93" text-anchor="end">NOV 2025</text>
   </g>
 
   <!-- NODE 3: March 2026 (Left) -->
   <g>
-    <circle cx="420" cy="210" r="12" fill="url(#node-glow-blue)" />
-    <circle cx="420" cy="210" r="4" fill="#38BDF8" />
+    <circle cx="420" cy="210" r="14" fill="url(#node-glow-cyan)" />
+    <circle cx="420" cy="210" r="5" fill="#00F2FE" />
     <text font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" text-anchor="end">
       <tspan x="390" y="208" font-size="13" font-weight="700" fill="#F8FAFC">Dynamic JavaScript Utilities</tspan>
       <tspan x="390" y="224" font-size="11" font-weight="400" fill="#94A3B8">Shipped functional programming tools like OTP Email Verifiers and Event organizers.</tspan>
     </text>
-    <text x="440" y="215" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="800" fill="#38BDF8" text-anchor="start">MAR 2026</text>
+    <text x="445" y="215" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="800" fill="#00F2FE" text-anchor="start">MAR 2026</text>
   </g>
 
   <!-- NODE 4: May 2026 (Right) -->
   <g>
-    <circle cx="420" cy="280" r="12" fill="url(#node-glow-purple)" />
-    <circle cx="420" cy="280" r="4" fill="#8B5CF6" />
+    <circle cx="420" cy="280" r="14" fill="url(#node-glow-pink)" />
+    <circle cx="420" cy="280" r="5" fill="#FF2E93" />
     <text font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" text-anchor="start">
       <tspan x="450" y="278" font-size="13" font-weight="700" fill="#F8FAFC">Full-stack MERN Architectures</tspan>
       <tspan x="450" y="294" font-size="11" font-weight="400" fill="#94A3B8">Developed multi-tier MERN web platforms like Shadow Price Tracker and Healio.</tspan>
     </text>
-    <text x="370" y="285" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="800" fill="#8B5CF6" text-anchor="end">MAY 2026</text>
+    <text x="365" y="285" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="800" fill="#FF2E93" text-anchor="end">MAY 2026</text>
   </g>
 
   <!-- NODE 5: June 2026 (Left) -->
   <g>
-    <circle cx="420" cy="350" r="12" fill="url(#node-glow-blue)" />
-    <circle cx="420" cy="350" r="4" fill="#38BDF8" />
+    <circle cx="420" cy="350" r="14" fill="url(#node-glow-cyan)" />
+    <circle cx="420" cy="350" r="5" fill="#00F2FE" />
     <text font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" text-anchor="end">
       <tspan x="390" y="348" font-size="13" font-weight="700" fill="#F8FAFC">3D Graphics &amp; TypeScript</tspan>
       <tspan x="390" y="364" font-size="11" font-weight="400" fill="#94A3B8">Programmed interactive luxury 3D collections using WebGL, Three.js, and GSAP.</tspan>
     </text>
-    <text x="440" y="355" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="800" fill="#38BDF8" text-anchor="start">JUN 2026</text>
+    <text x="445" y="355" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="800" fill="#00F2FE" text-anchor="start">JUN 2026</text>
   </g>
 
   <!-- NODE 6: June 2026 (Right) -->
   <g>
-    <circle cx="420" cy="420" r="12" fill="url(#node-glow-purple)" />
-    <circle cx="420" cy="420" r="4" fill="#8B5CF6" />
+    <circle cx="420" cy="420" r="14" fill="url(#node-glow-pink)" />
+    <circle cx="420" cy="420" r="5" fill="#FF2E93" />
     <text font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" text-anchor="start">
       <tspan x="450" y="418" font-size="13" font-weight="700" fill="#F8FAFC">Machine Learning &amp; Jupyter</tspan>
       <tspan x="450" y="434" font-size="11" font-weight="400" fill="#94A3B8">Explored regression, classification models, and dataset evaluations in Python.</tspan>
     </text>
-    <text x="370" y="425" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="800" fill="#8B5CF6" text-anchor="end">JUN 2026</text>
+    <text x="365" y="425" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="800" fill="#FF2E93" text-anchor="end">JUN 2026</text>
   </g>
 </svg>

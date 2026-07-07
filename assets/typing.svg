@@ -3,12 +3,12 @@
     .text-base {
       font-family: 'JetBrains Mono', 'Fira Code', 'Courier New', monospace;
       font-size: 18px;
-      font-weight: 500;
-      fill: #38BDF8;
+      font-weight: 700;
+      fill: #00F2FE;
     }
     
     .cursor {
-      fill: #8B5CF6;
+      fill: #D946EF;
       animation: blink 0.8s infinite;
     }
 
@@ -115,33 +115,29 @@
     </clipPath>
   </defs>
 
-  <!-- We translate the group to visually center the text block. 
-       "Machine Learning Enthusiast" is our longest text (~292px wide).
-       To center the text block within the 600px canvas, we start at X = 154 (which centers it: (600 - 292)/2 = 154).
-  -->
   <g transform="translate(154, 26)">
     <!-- Software Engineer -->
     <g class="g1">
       <text class="text-base" x="0" y="0" text-anchor="start" clip-path="url(#clip1)">Software Engineer</text>
-      <rect class="cursor c1" x="5" y="-16" width="2" height="18" rx="1" />
+      <rect class="cursor c1" x="5" y="-16" width="3" height="18" rx="1.5" />
     </g>
 
     <!-- AI Developer -->
     <g class="g2">
       <text class="text-base" x="0" y="0" text-anchor="start" clip-path="url(#clip2)">AI Developer</text>
-      <rect class="cursor c2" x="5" y="-16" width="2" height="18" rx="1" />
+      <rect class="cursor c2" x="5" y="-16" width="3" height="18" rx="1.5" />
     </g>
 
     <!-- Machine Learning Enthusiast -->
     <g class="g3">
       <text class="text-base" x="0" y="0" text-anchor="start" clip-path="url(#clip3)">Machine Learning Enthusiast</text>
-      <rect class="cursor c3" x="5" y="-16" width="2" height="18" rx="1" />
+      <rect class="cursor c3" x="5" y="-16" width="3" height="18" rx="1.5" />
     </g>
 
     <!-- Full Stack Developer -->
     <g class="g4">
       <text class="text-base" x="0" y="0" text-anchor="start" clip-path="url(#clip4)">Full Stack Developer</text>
-      <rect class="cursor c4" x="5" y="-16" width="2" height="18" rx="1" />
+      <rect class="cursor c4" x="5" y="-16" width="3" height="18" rx="1.5" />
     </g>
   </g>
 </svg>

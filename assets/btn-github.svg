@@ -1,14 +1,14 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 135 38" width="135" height="38" fill="none">
   <defs>
     <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0F172A" />
-      <stop offset="100%" stop-color="#070A12" />
+      <stop offset="0%" stop-color="#0A0D1B" />
+      <stop offset="100%" stop-color="#04060E" />
     </linearGradient>
   </defs>
 
   <!-- Button Background -->
   <rect width="135" height="38" fill="url(#bg)" rx="8" />
-  <rect x="0.5" y="0.5" width="134" height="37" rx="7.5" stroke="#38BDF8" stroke-opacity="0.4" stroke-width="1" />
+  <rect x="0.5" y="0.5" width="134" height="37" rx="7.5" stroke="#F8FAFC" stroke-opacity="0.4" stroke-width="1.2" />
 
   <!-- GitHub Icon -->
   <g transform="translate(14, 9)">

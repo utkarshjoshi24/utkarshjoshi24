@@ -1,17 +1,17 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 180" width="400" height="180" fill="none">
   <defs>
     <linearGradient id="card-bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0F172A" />
-      <stop offset="100%" stop-color="#070A12" />
+      <stop offset="0%" stop-color="#0A0D1B" />
+      <stop offset="100%" stop-color="#04060E" />
     </linearGradient>
     <linearGradient id="border-glow" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#8B5CF6" stop-opacity="0.4" />
-      <stop offset="30%" stop-color="#1E293B" stop-opacity="0.2" />
+      <stop offset="0%" stop-color="#FF2E93" />
+      <stop offset="30%" stop-color="#8B5CF6" stop-opacity="0.5" />
       <stop offset="100%" stop-color="#1E293B" stop-opacity="0.1" />
     </linearGradient>
-    <radialGradient id="glow" cx="0%" cy="0%" r="50%">
-      <stop offset="0%" stop-color="#8B5CF6" stop-opacity="0.15" />
-      <stop offset="100%" stop-color="#8B5CF6" stop-opacity="0" />
+    <radialGradient id="glow" cx="0%" cy="0%" r="60%">
+      <stop offset="0%" stop-color="#FF2E93" stop-opacity="0.25" />
+      <stop offset="100%" stop-color="#FF2E93" stop-opacity="0" />
     </radialGradient>
   </defs>
 
@@ -22,16 +22,16 @@
   <rect width="400" height="180" fill="url(#glow)" rx="12" />
 
   <!-- Outer Border -->
-  <rect x="0.5" y="0.5" width="399" height="179" rx="11.5" stroke="url(#border-glow)" stroke-width="1" />
+  <rect x="0.5" y="0.5" width="399" height="179" rx="11.5" stroke="url(#border-glow)" stroke-width="1.2" />
 
   <!-- Title -->
   <text x="24" y="38" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="700" fill="#F8FAFC" letter-spacing="1">Healio-</text>
 
   <!-- Status Badge (Top Right) -->
   <g transform="translate(290, 24)">
-    <rect width="86" height="18" rx="9" fill="#8B5CF6" fill-opacity="0.15" stroke="#8B5CF6" stroke-opacity="0.3" stroke-width="1" />
-    <circle cx="10" cy="9" r="3" fill="#8B5CF6" />
-    <text x="76" y="13" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="9" font-weight="700" fill="#8B5CF6" letter-spacing="1" text-anchor="end">PRODUCTION</text>
+    <rect width="86" height="18" rx="9" fill="#FF2E93" fill-opacity="0.15" stroke="#FF2E93" stroke-opacity="0.3" stroke-width="1.2" />
+    <circle cx="10" cy="9" r="3" fill="#FF2E93" />
+    <text x="76" y="13" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="9" font-weight="700" fill="#FF2E93" letter-spacing="1" text-anchor="end">PRODUCTION</text>
   </g>
 
   <!-- Project Description -->
@@ -45,36 +45,34 @@
   <g transform="translate(24, 136)">
     <!-- React -->
     <g transform="translate(0, 0)">
-      <rect width="52" height="20" rx="4" fill="#1E293B" stroke="#334155" stroke-width="0.8" />
+      <rect width="52" height="20" rx="4" fill="#0A0D1B" stroke="#334155" stroke-width="0.8" />
       <text x="26" y="14" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="600" fill="#94A3B8" text-anchor="middle">React</text>
     </g>
     <!-- Node -->
     <g transform="translate(58, 0)">
-      <rect width="50" height="20" rx="4" fill="#1E293B" stroke="#334155" stroke-width="0.8" />
+      <rect width="50" height="20" rx="4" fill="#0A0D1B" stroke="#334155" stroke-width="0.8" />
       <text x="25" y="14" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="600" fill="#94A3B8" text-anchor="middle">Node.js</text>
     </g>
     <!-- MongoDB -->
     <g transform="translate(114, 0)">
-      <rect width="64" height="20" rx="4" fill="#1E293B" stroke="#334155" stroke-width="0.8" />
+      <rect width="64" height="20" rx="4" fill="#0A0D1B" stroke="#334155" stroke-width="0.8" />
       <text x="32" y="14" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="600" fill="#94A3B8" text-anchor="middle">MongoDB</text>
     </g>
     <!-- Gemini -->
     <g transform="translate(184, 0)">
-      <rect width="58" height="20" rx="4" fill="#1E293B" stroke="#8B5CF6" stroke-opacity="0.3" stroke-width="0.8" />
-      <text x="29" y="14" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="600" fill="#8B5CF6" text-anchor="middle">Gemini</text>
+      <rect width="58" height="20" rx="4" fill="#0A0D1B" stroke="#FF2E93" stroke-opacity="0.4" stroke-width="0.8" />
+      <text x="29" y="14" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="600" fill="#FF2E93" text-anchor="middle">Gemini</text>
     </g>
   </g>
 
   <!-- Action Icons (Bottom Right) -->
   <g transform="translate(330, 134)">
-    <!-- GitHub Icon -->
     <g transform="translate(0, 0)">
-      <circle cx="12" cy="12" r="11" stroke="#334155" stroke-width="0.8" fill="#1E293B" />
+      <circle cx="12" cy="12" r="11" stroke="#FF2E93" stroke-opacity="0.3" stroke-width="0.8" fill="#0A0D1B" />
       <path d="M 12 5 C 8.1 5 5 8.1 5 12 C 5 15.1 7 17.8 9.8 18.7 C 10.2 18.8 10.3 18.5 10.3 18.3 L 10.3 17 C 8.4 17.4 8 16.1 8 16.1 C 7.7 15.3 7.2 15.1 7.2 15.1 C 6.6 14.7 7.2 14.7 7.2 14.7 C 7.9 14.7 8.2 15.4 8.2 15.4 C 8.8 16.4 9.8 16.1 10.2 15.9 C 10.3 15.4 10.5 15.1 10.7 14.9 C 9.2 14.7 7.6 14.1 7.6 11.5 C 7.6 10.8 7.9 10.2 8.3 9.7 C 8.2 9.5 8 8.8 8.4 7.9 C 8.4 7.9 9 7.7 10.3 8.6 C 10.9 8.4 11.5 8.3 12.1 8.3 C 12.7 8.3 13.3 8.4 13.9 8.6 C 15.2 7.7 15.8 7.9 15.8 7.9 C 16.2 8.8 16 9.5 15.9 9.7 C 16.3 10.2 16.6 10.8 16.6 11.5 C 16.6 14.1 15 14.7 13.5 14.9 C 13.7 15.1 13.9 15.5 13.9 16.1 L 13.9 18.3 C 13.9 18.5 14 18.8 14.4 18.7 C 17.2 17.8 19.2 15.1 19.2 12 C 19.2 8.1 16.1 5 12 5 Z" fill="#94A3B8" />
     </g>
-    <!-- Live Demo (External Link) Icon -->
     <g transform="translate(28, 0)">
-      <circle cx="12" cy="12" r="11" stroke="#334155" stroke-width="0.8" fill="#1E293B" />
+      <circle cx="12" cy="12" r="11" stroke="#FF2E93" stroke-opacity="0.3" stroke-width="0.8" fill="#0A0D1B" />
       <path d="M 9 9 L 9 15 L 15 15 L 15 12 M 12 9 L 15 9 L 15 12 M 10.5 13.5 L 15 9" stroke="#94A3B8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" fill="none" />
     </g>
   </g>

@@ -1,35 +1,42 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 300" width="840" height="300" fill="none">
   <defs>
-    <!-- Background Gradients -->
+    <!-- Deep Space Background -->
     <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#05070F" />
-      <stop offset="50%" stop-color="#090D1A" />
-      <stop offset="100%" stop-color="#0F172A" />
+      <stop offset="40%" stop-color="#080C1E" />
+      <stop offset="100%" stop-color="#0E172C" />
     </linearGradient>
 
-    <!-- Glowing Orbs Gradients -->
-    <radialGradient id="glow-purple" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#8B5CF6" stop-opacity="0.25" />
-      <stop offset="100%" stop-color="#8B5CF6" stop-opacity="0" />
+    <!-- High-Intensity Glowing Orbs -->
+    <radialGradient id="glow-fuchsia" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#D946EF" stop-opacity="0.35" />
+      <stop offset="100%" stop-color="#D946EF" stop-opacity="0" />
     </radialGradient>
 
-    <radialGradient id="glow-blue" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.2" />
-      <stop offset="100%" stop-color="#38BDF8" stop-opacity="0" />
+    <radialGradient id="glow-cyan" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#06B6D4" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#06B6D4" stop-opacity="0" />
     </radialGradient>
 
-    <!-- Line Gradient -->
+    <!-- Vibrant Accent Line Gradient -->
     <linearGradient id="line-grad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0" />
-      <stop offset="25%" stop-color="#38BDF8" stop-opacity="1" />
-      <stop offset="50%" stop-color="#8B5CF6" stop-opacity="1" />
-      <stop offset="75%" stop-color="#38BDF8" stop-opacity="1" />
-      <stop offset="100%" stop-color="#38BDF8" stop-opacity="0" />
+      <stop offset="0%" stop-color="#06B6D4" stop-opacity="0" />
+      <stop offset="25%" stop-color="#06B6D4" stop-opacity="1" />
+      <stop offset="50%" stop-color="#D946EF" stop-opacity="1" />
+      <stop offset="75%" stop-color="#8B5CF6" stop-opacity="1" />
+      <stop offset="100%" stop-color="#8B5CF6" stop-opacity="0" />
+    </linearGradient>
+
+    <!-- Border Glow Gradient -->
+    <linearGradient id="border-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06B6D4" stop-opacity="0.4" />
+      <stop offset="50%" stop-color="#8B5CF6" stop-opacity="0.1" />
+      <stop offset="100%" stop-color="#D946EF" stop-opacity="0.4" />
     </linearGradient>
 
     <!-- Grid Pattern -->
-    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
-      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#F8FAFC" stroke-opacity="0.03" stroke-width="1" />
+    <pattern id="grid" width="35" height="35" patternUnits="userSpaceOnUse">
+      <path d="M 35 0 L 0 0 0 35" fill="none" stroke="#F8FAFC" stroke-opacity="0.04" stroke-width="1" />
     </pattern>
   </defs>
 
@@ -37,47 +44,47 @@
   <rect width="840" height="300" fill="url(#bg)" rx="16" />
 
   <!-- Animated Glowing Orbs -->
-  <circle cx="200" cy="100" r="250" fill="url(#glow-purple)">
-    <animate attributeName="cx" values="200;250;150;200" dur="15s" repeatCount="indefinite" />
-    <animate attributeName="cy" values="100;180;120;100" dur="15s" repeatCount="indefinite" />
+  <circle cx="150" cy="80" r="280" fill="url(#glow-fuchsia)">
+    <animate attributeName="cx" values="150;220;120;150" dur="10s" repeatCount="indefinite" />
+    <animate attributeName="cy" values="80;160;100;80" dur="10s" repeatCount="indefinite" />
   </circle>
-  <circle cx="640" cy="200" r="280" fill="url(#glow-blue)">
-    <animate attributeName="cx" values="640;580;700;640" dur="18s" repeatCount="indefinite" />
-    <animate attributeName="cy" values="200;120;250;200" dur="18s" repeatCount="indefinite" />
+  <circle cx="680" cy="220" r="300" fill="url(#glow-cyan)">
+    <animate attributeName="cx" values="680;600;740;680" dur="12s" repeatCount="indefinite" />
+    <animate attributeName="cy" values="220;140;260;220" dur="12s" repeatCount="indefinite" />
   </circle>
 
   <!-- Grid Overlay -->
   <rect width="840" height="300" fill="url(#grid)" rx="16" />
 
   <!-- Abstract Design Lines -->
-  <path d="M-20,150 Q210,50 420,150 T860,150" fill="none" stroke="url(#line-grad)" stroke-width="1.5" stroke-opacity="0.3">
-    <animate attributeName="stroke-dasharray" values="10,1000;1000,10;10,1000" dur="12s" repeatCount="indefinite" />
+  <path d="M-20,150 Q210,60 420,150 T860,150" fill="none" stroke="url(#line-grad)" stroke-width="2" stroke-opacity="0.5">
+    <animate attributeName="stroke-dasharray" values="15,400;400,15;15,400" dur="8s" repeatCount="indefinite" />
   </path>
-  <path d="M-20,160 Q210,260 420,160 T860,160" fill="none" stroke="url(#line-grad)" stroke-width="1" stroke-opacity="0.2">
-    <animate attributeName="stroke-dasharray" values="5,500;500,5;5,500" dur="16s" repeatCount="indefinite" />
+  <path d="M-20,170 Q210,260 420,170 T860,170" fill="none" stroke="url(#line-grad)" stroke-width="1.5" stroke-opacity="0.3">
+    <animate attributeName="stroke-dasharray" values="8,300;300,8;8,300" dur="11s" repeatCount="indefinite" />
   </path>
 
   <!-- Content Group -->
-  <g transform="translate(0, 0)">
+  <g>
     <!-- Subtitle Category Badges -->
-    <g transform="translate(330, 60)">
-      <rect x="0" y="0" width="180" height="24" rx="12" fill="#1E293B" fill-opacity="0.6" stroke="#38BDF8" stroke-opacity="0.3" stroke-width="1" />
-      <circle cx="16" cy="12" r="4" fill="#38BDF8">
-        <animate attributeName="opacity" values="0.3;1;0.3" dur="2s" repeatCount="indefinite" />
+    <g transform="translate(325, 60)">
+      <rect x="0" y="0" width="190" height="26" rx="13" fill="#090D1E" fill-opacity="0.8" stroke="url(#line-grad)" stroke-width="1.5" />
+      <circle cx="16" cy="13" r="4.5" fill="#06B6D4">
+        <animate attributeName="opacity" values="0.4;1;0.4" dur="1.5s" repeatCount="indefinite" />
       </circle>
-      <text x="30" y="16" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="600" fill="#38BDF8" letter-spacing="1.5">BUILDING FOR THE FUTURE</text>
+      <text x="32" y="17" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="700" fill="#06B6D4" letter-spacing="1.5">CREATING DIGITAL ART</text>
     </g>
 
     <!-- Main Title -->
-    <text x="50%" y="145" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif" font-size="46" font-weight="800" fill="#F8FAFC" letter-spacing="8">UTKARSH JOSHI</text>
+    <text x="50%" y="150" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="48" font-weight="900" fill="#F8FAFC" letter-spacing="9">UTKARSH JOSHI</text>
     
     <!-- Sub-headline -->
-    <text x="50%" y="185" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="500" fill="#94A3B8" letter-spacing="4">SOFTWARE ENGINEER • AI DEVELOPER</text>
+    <text x="50%" y="192" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14.5" font-weight="600" fill="#94A3B8" letter-spacing="5">SOFTWARE ENGINEER • AI DEVELOPER</text>
 
     <!-- Glowing Accent Line -->
-    <line x1="320" y1="210" x2="520" y2="210" stroke="url(#line-grad)" stroke-width="2" stroke-linecap="round" />
+    <line x1="300" y1="216" x2="540" y2="216" stroke="url(#line-grad)" stroke-width="2.5" stroke-linecap="round" />
   </g>
 
-  <!-- Border -->
-  <rect x="0.5" y="0.5" width="839" height="299" rx="15.5" stroke="#334155" stroke-opacity="0.3" fill="none" />
+  <!-- Border Frame -->
+  <rect x="0.5" y="0.5" width="839" height="299" rx="15.5" stroke="url(#border-grad)" stroke-width="1.2" fill="none" />
 </svg>
