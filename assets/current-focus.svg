@@ -45,14 +45,14 @@
     </g>
     <text x="84" y="80" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="700" fill="#94A3B8" letter-spacing="1.5" text-anchor="middle">BUILDING</text>
     <text font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="500" fill="#F8FAFC" text-anchor="middle">
-      <tspan x="84" y="112">Healio AI Portal</tspan>
-      <tspan x="84" y="132" fill="#94A3B8" font-size="11">MERN Stack + 3D</tspan>
+      <tspan x="84" y="112">Healio Platform</tspan>
+      <tspan x="84" y="132" fill="#94A3B8" font-size="11">MERN Stack &amp; 3D</tspan>
     </text>
   </g>
 
   <!-- ================= COLUMN 2: LEARNING ================= -->
   <g transform="translate(168, 0)">
-    <!-- Icon (Graduation Cap / Brain) -->
+    <!-- Icon (Graduation Cap) -->
     <g transform="translate(72, 30)">
       <path d="M 12 3 L 22 8 L 12 13 L 2 8 Z" stroke="#8B5CF6" stroke-width="1.8" fill="none" stroke-linejoin="round" />
       <path d="M 6 10 L 6 17 C 6 19 12 21 12 21 C 12 21 18 19 18 17 L 18 10" stroke="#8B5CF6" stroke-width="1.8" fill="none" stroke-linejoin="round" />
@@ -60,8 +60,8 @@
     </g>
     <text x="84" y="80" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="700" fill="#94A3B8" letter-spacing="1.5" text-anchor="middle">LEARNING</text>
     <text font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="500" fill="#F8FAFC" text-anchor="middle">
-      <tspan x="84" y="112">LLM Architectures</tspan>
-      <tspan x="84" y="132" fill="#94A3B8" font-size="11">NLP &amp; Fine-tuning</tspan>
+      <tspan x="84" y="112">ML &amp; Data Models</tspan>
+      <tspan x="84" y="132" fill="#94A3B8" font-size="11">Python &amp; Jupyter</tspan>
     </text>
   </g>
 
@@ -74,28 +74,28 @@
     </g>
     <text x="84" y="80" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="700" fill="#94A3B8" letter-spacing="1.5" text-anchor="middle">READING</text>
     <text font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="500" fill="#F8FAFC" text-anchor="middle">
-      <tspan x="84" y="112">Designing Data</tspan>
-      <tspan x="84" y="132" fill="#94A3B8" font-size="11">Intensive Systems</tspan>
+      <tspan x="84" y="112">Clean Code</tspan>
+      <tspan x="84" y="132" fill="#94A3B8" font-size="11">Systems &amp; Architecture</tspan>
     </text>
   </g>
 
   <!-- ================= COLUMN 4: EXPLORING ================= -->
   <g transform="translate(504, 0)">
-    <!-- Icon (Compass/Telescope) -->
+    <!-- Icon (Compass) -->
     <g transform="translate(72, 30)">
       <circle cx="12" cy="12" r="9" stroke="#8B5CF6" stroke-width="1.8" fill="none" />
       <path d="M 16.5 7.5 L 14 14 L 7.5 16.5 L 10 10 Z" stroke="#8B5CF6" stroke-width="1.8" fill="none" stroke-linejoin="round" />
     </g>
     <text x="84" y="80" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="700" fill="#94A3B8" letter-spacing="1.5" text-anchor="middle">EXPLORING</text>
     <text font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="500" fill="#F8FAFC" text-anchor="middle">
-      <tspan x="84" y="112">Agentic Workflows</tspan>
-      <tspan x="84" y="132" fill="#94A3B8" font-size="11">LangGraph &amp; CrewAI</tspan>
+      <tspan x="84" y="112">3D Web Graphics</tspan>
+      <tspan x="84" y="132" fill="#94A3B8" font-size="11">WebGL &amp; GSAP animation</tspan>
     </text>
   </g>
 
   <!-- ================= COLUMN 5: 2026 GOALS ================= -->
   <g transform="translate(672, 0)">
-    <!-- Icon (Target/Trophy) -->
+    <!-- Icon (Trophy) -->
     <g transform="translate(72, 30)">
       <path d="M 6 4 C 6 2 18 2 18 4 L 18 10 C 18 14 15 17 12 17 C 9 17 6 14 6 10 Z" stroke="#38BDF8" stroke-width="1.8" fill="none" stroke-linejoin="round" />
       <path d="M 6 7 L 2 7 C 1.5 7 1 8 1 9.5 C 1 11 2 12.5 4 12.5 L 6 12.5" stroke="#38BDF8" stroke-width="1.8" stroke-linecap="round" />
@@ -105,8 +105,8 @@
     </g>
     <text x="84" y="80" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="700" fill="#94A3B8" letter-spacing="1.5" text-anchor="middle">2026 GOALS</text>
     <text font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="500" fill="#F8FAFC" text-anchor="middle">
-      <tspan x="84" y="112">Open Source</tspan>
-      <tspan x="84" y="132" fill="#94A3B8" font-size="11">Core Contributions</tspan>
+      <tspan x="84" y="112">Fullstack AI Tools</tspan>
+      <tspan x="84" y="132" fill="#94A3B8" font-size="11">Integrating LLM systems</tspan>
     </text>
   </g>
 </svg>

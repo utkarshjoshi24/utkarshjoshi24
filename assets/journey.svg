@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 520" width="840" height="520" fill="none">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 480" width="840" height="480" fill="none">
   <defs>
     <!-- Background Gradient -->
     <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
@@ -31,100 +31,87 @@
   </defs>
 
   <!-- Card Background & Border -->
-  <rect width="840" height="520" fill="url(#bg)" rx="12" />
-  <rect x="0.5" y="0.5" width="839" height="519" rx="11.5" stroke="url(#border-glow)" stroke-width="1" />
+  <rect width="840" height="480" fill="url(#bg)" rx="12" />
+  <rect x="0.5" y="0.5" width="839" height="479" rx="11.5" stroke="url(#border-glow)" stroke-width="1" />
 
   <!-- Title -->
   <text x="420" y="32" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="700" fill="#94A3B8" letter-spacing="3" text-anchor="middle">DEVELOPER JOURNEY</text>
 
   <!-- Central Track Line -->
-  <line x1="420" y1="55" x2="420" y2="475" stroke="url(#track-grad)" stroke-width="2" stroke-opacity="0.4" />
-  <line x1="420" y1="55" x2="420" y2="475" stroke="url(#track-grad)" stroke-width="6" stroke-opacity="0.1" />
+  <line x1="420" y1="55" x2="420" y2="435" stroke="url(#track-grad)" stroke-width="2" stroke-opacity="0.4" />
+  <line x1="420" y1="55" x2="420" y2="435" stroke="url(#track-grad)" stroke-width="6" stroke-opacity="0.1" />
 
   <!-- Animated Traveling Orb on Track -->
   <circle cx="420" cy="55" r="4" fill="#38BDF8">
-    <animate attributeName="cy" values="55;475;55" dur="12s" repeatCount="indefinite" />
-    <animate attributeName="fill" values="#38BDF8;#8B5CF6;#38BDF8" dur="12s" repeatCount="indefinite" />
+    <animate attributeName="cy" values="55;435;55" dur="10s" repeatCount="indefinite" />
+    <animate attributeName="fill" values="#38BDF8;#8B5CF6;#38BDF8" dur="10s" repeatCount="indefinite" />
   </circle>
 
   <!-- ================= TIMELINE NODES & DETAILS ================= -->
 
-  <!-- NODE 1: 2020 (Left) -->
+  <!-- NODE 1: March 2025 (Left) -->
   <g>
-    <!-- Connector Glow & Circle -->
     <circle cx="420" cy="70" r="12" fill="url(#node-glow-blue)" />
     <circle cx="420" cy="70" r="4" fill="#38BDF8" />
-    <!-- Text Panel -->
     <text font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" text-anchor="end">
       <tspan x="390" y="68" font-size="13" font-weight="700" fill="#F8FAFC">Started Programming</tspan>
-      <tspan x="390" y="84" font-size="11" font-weight="400" fill="#94A3B8">Discovered computing logic, algorithm flows, and python fundamentals.</tspan>
+      <tspan x="390" y="84" font-size="11" font-weight="400" fill="#94A3B8">Began writing HTML &amp; CSS layouts and building initial web structures.</tspan>
     </text>
-    <text x="440" y="75" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="800" fill="#38BDF8" stroke="#38BDF8" stroke-width="0.3" text-anchor="start">2020</text>
+    <text x="440" y="75" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="800" fill="#38BDF8" text-anchor="start">MAR 2025</text>
   </g>
 
-  <!-- NODE 2: 2021 (Right) -->
+  <!-- NODE 2: November 2025 (Right) -->
   <g>
-    <circle cx="420" cy="135" r="12" fill="url(#node-glow-purple)" />
-    <circle cx="420" cy="135" r="4" fill="#8B5CF6" />
+    <circle cx="420" cy="140" r="12" fill="url(#node-glow-purple)" />
+    <circle cx="420" cy="140" r="4" fill="#8B5CF6" />
     <text font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" text-anchor="start">
-      <tspan x="450" y="133" font-size="13" font-weight="700" fill="#F8FAFC">Web Development</tspan>
-      <tspan x="450" y="149" font-size="11" font-weight="400" fill="#94A3B8">Built responsive user interfaces and backend database services (MERN).</tspan>
+      <tspan x="450" y="138" font-size="13" font-weight="700" fill="#F8FAFC">Version Control &amp; React basics</tspan>
+      <tspan x="450" y="154" font-size="11" font-weight="400" fill="#94A3B8">Integrated Git workflows and started exploring component-based React architectures.</tspan>
     </text>
-    <text x="370" y="140" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="800" fill="#8B5CF6" stroke="#8B5CF6" stroke-width="0.3" text-anchor="end">2021</text>
+    <text x="370" y="145" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="800" fill="#8B5CF6" text-anchor="end">NOV 2025</text>
   </g>
 
-  <!-- NODE 3: 2022 (Left) -->
+  <!-- NODE 3: March 2026 (Left) -->
   <g>
-    <circle cx="420" cy="200" r="12" fill="url(#node-glow-blue)" />
-    <circle cx="420" cy="200" r="4" fill="#38BDF8" />
+    <circle cx="420" cy="210" r="12" fill="url(#node-glow-blue)" />
+    <circle cx="420" cy="210" r="4" fill="#38BDF8" />
     <text font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" text-anchor="end">
-      <tspan x="390" y="198" font-size="13" font-weight="700" fill="#F8FAFC">Machine Learning</tspan>
-      <tspan x="390" y="214" font-size="11" font-weight="400" fill="#94A3B8">Explored supervised algorithms, neural weights, and dataset cleanups.</tspan>
+      <tspan x="390" y="208" font-size="13" font-weight="700" fill="#F8FAFC">Dynamic JavaScript Utilities</tspan>
+      <tspan x="390" y="224" font-size="11" font-weight="400" fill="#94A3B8">Shipped functional programming tools like OTP Email Verifiers and Event organizers.</tspan>
     </text>
-    <text x="440" y="205" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="800" fill="#38BDF8" stroke="#38BDF8" stroke-width="0.3" text-anchor="start">2022</text>
+    <text x="440" y="215" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="800" fill="#38BDF8" text-anchor="start">MAR 2026</text>
   </g>
 
-  <!-- NODE 4: 2023 (Right) -->
+  <!-- NODE 4: May 2026 (Right) -->
   <g>
-    <circle cx="420" cy="265" r="12" fill="url(#node-glow-purple)" />
-    <circle cx="420" cy="265" r="4" fill="#8B5CF6" />
+    <circle cx="420" cy="280" r="12" fill="url(#node-glow-purple)" />
+    <circle cx="420" cy="280" r="4" fill="#8B5CF6" />
     <text font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" text-anchor="start">
-      <tspan x="450" y="263" font-size="13" font-weight="700" fill="#F8FAFC">Data Science</tspan>
-      <tspan x="450" y="279" font-size="11" font-weight="400" fill="#94A3B8">Engineered pipeline architectures, statistical validations, and EDA logs.</tspan>
+      <tspan x="450" y="278" font-size="13" font-weight="700" fill="#F8FAFC">Full-stack MERN Architectures</tspan>
+      <tspan x="450" y="294" font-size="11" font-weight="400" fill="#94A3B8">Developed multi-tier MERN web platforms like Shadow Price Tracker and Healio.</tspan>
     </text>
-    <text x="370" y="270" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="800" fill="#8B5CF6" stroke="#8B5CF6" stroke-width="0.3" text-anchor="end">2023</text>
+    <text x="370" y="285" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="800" fill="#8B5CF6" text-anchor="end">MAY 2026</text>
   </g>
 
-  <!-- NODE 5: 2024 (Left) -->
+  <!-- NODE 5: June 2026 (Left) -->
   <g>
-    <circle cx="420" cy="330" r="12" fill="url(#node-glow-blue)" />
-    <circle cx="420" cy="330" r="4" fill="#38BDF8" />
+    <circle cx="420" cy="350" r="12" fill="url(#node-glow-blue)" />
+    <circle cx="420" cy="350" r="4" fill="#38BDF8" />
     <text font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" text-anchor="end">
-      <tspan x="390" y="328" font-size="13" font-weight="700" fill="#F8FAFC">Artificial Intelligence</tspan>
-      <tspan x="390" y="344" font-size="11" font-weight="400" fill="#94A3B8">Integrated CNNs, sequence modeling, and neural pattern structures.</tspan>
+      <tspan x="390" y="348" font-size="13" font-weight="700" fill="#F8FAFC">3D Graphics &amp; TypeScript</tspan>
+      <tspan x="390" y="364" font-size="11" font-weight="400" fill="#94A3B8">Programmed interactive luxury 3D collections using WebGL, Three.js, and GSAP.</tspan>
     </text>
-    <text x="440" y="335" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="800" fill="#38BDF8" stroke="#38BDF8" stroke-width="0.3" text-anchor="start">2024</text>
+    <text x="440" y="355" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="800" fill="#38BDF8" text-anchor="start">JUN 2026</text>
   </g>
 
-  <!-- NODE 6: 2025 (Right) -->
+  <!-- NODE 6: June 2026 (Right) -->
   <g>
-    <circle cx="420" cy="395" r="12" fill="url(#node-glow-purple)" />
-    <circle cx="420" cy="395" r="4" fill="#8B5CF6" />
+    <circle cx="420" cy="420" r="12" fill="url(#node-glow-purple)" />
+    <circle cx="420" cy="420" r="4" fill="#8B5CF6" />
     <text font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" text-anchor="start">
-      <tspan x="450" y="393" font-size="13" font-weight="700" fill="#F8FAFC">Large Language Models</tspan>
-      <tspan x="450" y="409" font-size="11" font-weight="400" fill="#94A3B8">Deployed fine-tuned weights, RAG patterns, and multi-agent meshes.</tspan>
+      <tspan x="450" y="418" font-size="13" font-weight="700" fill="#F8FAFC">Machine Learning &amp; Jupyter</tspan>
+      <tspan x="450" y="434" font-size="11" font-weight="400" fill="#94A3B8">Explored regression, classification models, and dataset evaluations in Python.</tspan>
     </text>
-    <text x="370" y="400" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="800" fill="#8B5CF6" stroke="#8B5CF6" stroke-width="0.3" text-anchor="end">2025</text>
-  </g>
-
-  <!-- NODE 7: 2026 (Left) -->
-  <g>
-    <circle cx="420" cy="460" r="12" fill="url(#node-glow-blue)" />
-    <circle cx="420" cy="460" r="4" fill="#38BDF8" />
-    <text font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" text-anchor="end">
-      <tspan x="390" y="458" font-size="13" font-weight="700" fill="#F8FAFC">Building Real Products</tspan>
-      <tspan x="390" y="474" font-size="11" font-weight="400" fill="#94A3B8">Shipped high-end AI healthcare platform Healio for clinical triage workflows.</tspan>
-    </text>
-    <text x="440" y="465" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="800" fill="#38BDF8" stroke="#38BDF8" stroke-width="0.3" text-anchor="start">2026</text>
+    <text x="370" y="425" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="800" fill="#8B5CF6" text-anchor="end">JUN 2026</text>
   </g>
 </svg>

@@ -115,33 +115,32 @@ Curated technical pillars representing core competencies in production systems:
 <table border="0" cellpadding="8" cellspacing="0" width="100%">
   <tr valign="top">
     <td width="33%" style="border: none; padding-right: 16px;">
-      <h4 style="color: #38BDF8; font-family: -apple-system, sans-serif; font-size: 13px; font-weight: 700; letter-spacing: 1.5px; margin: 0 0 12px 0;">🧠 AI &amp; MACHINE LEARNING</h4>
+      <h4 style="color: #38BDF8; font-family: -apple-system, sans-serif; font-size: 13px; font-weight: 700; letter-spacing: 1.5px; margin: 0 0 12px 0;">🧠 DATA SCIENCE &amp; ML</h4>
       <p style="color: #94A3B8; font-family: -apple-system, sans-serif; font-size: 13px; line-height: 1.8; margin: 0;">
-        • PyTorch Deep Learning<br />
-        • Google Gemini API Integration<br />
-        • Scikit-Learn Model Design<br />
-        • Pandas &amp; NumPy Pipelines<br />
-        • Jupyter Notebook EDA
+        • Python Programming<br />
+        • Jupyter Notebooks<br />
+        • Exploratory Data Analysis<br />
+        • Dataset Transformations<br />
+        • Pandas &amp; NumPy
       </p>
     </td>
     <td width="34%" style="border: none; padding-right: 16px; padding-left: 16px;">
       <h4 style="color: #8B5CF6; font-family: -apple-system, sans-serif; font-size: 13px; font-weight: 700; letter-spacing: 1.5px; margin: 0 0 12px 0;">⚙️ FULL STACK SYSTEMS</h4>
       <p style="color: #94A3B8; font-family: -apple-system, sans-serif; font-size: 13px; line-height: 1.8; margin: 0;">
-        • TypeScript &amp; JavaScript (ES6+)<br />
-        • React.js &amp; Next.js SSR<br />
-        • Three.js WebGL 3D Graphics<br />
-        • Node.js &amp; Express Microservices<br />
-        • MongoDB, PostgreSQL &amp; Redis
+        • JavaScript (ES6+) &amp; HTML/CSS<br />
+        • TypeScript (WebGL)<br />
+        • React.js Components<br />
+        • Node.js &amp; Express APIs<br />
+        • MongoDB Databases
       </p>
     </td>
     <td width="33%" style="border: none; padding-left: 16px;">
-      <h4 style="color: #38BDF8; font-family: -apple-system, sans-serif; font-size: 13px; font-weight: 700; letter-spacing: 1.5px; margin: 0 0 12px 0;">☁️ CLOUD &amp; DEVOPS</h4>
+      <h4 style="color: #38BDF8; font-family: -apple-system, sans-serif; font-size: 13px; font-weight: 700; letter-spacing: 1.5px; margin: 0 0 12px 0;">🔧 TOOLS &amp; APIS</h4>
       <p style="color: #94A3B8; font-family: -apple-system, sans-serif; font-size: 13px; line-height: 1.8; margin: 0;">
-        • Amazon Web Services (AWS)<br />
-        • Docker Containerization<br />
-        • GitHub Actions CI/CD<br />
+        • Google Gemini API<br />
         • Git Version Control<br />
-        • Vercel Edge Deployments
+        • GitHub Repositories<br />
+        • Vercel Deployments
       </p>
     </td>
   </tr>
