@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 135 38" width="135" height="38" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F172A" />
+      <stop offset="100%" stop-color="#070A12" />
+    </linearGradient>
+  </defs>
+
+  <!-- Button Background -->
+  <rect width="135" height="38" fill="url(#bg)" rx="8" />
+  <rect x="0.5" y="0.5" width="134" height="37" rx="7.5" stroke="#38BDF8" stroke-opacity="0.4" stroke-width="1" />
+
+  <!-- LinkedIn Icon -->
+  <g transform="translate(14, 9)">
+    <path d="M 19 0 L 1 0 C 0.4 0 0 0.4 0 1 L 0 19 C 0 19.6 0.4 20 1 20 L 19 20 C 19.6 20 20 19.6 20 19 L 20 1 C 20 0.4 19.6 0 19 0 Z M 6 17 L 3 17 L 3 8 L 6 8 L 6 17 Z M 4.5 6.7 C 3.5 6.7 2.7 5.9 2.7 4.9 C 2.7 3.9 3.5 3.1 4.5 3.1 C 5.5 3.1 6.3 3.9 6.3 4.9 C 6.3 5.9 5.5 6.7 4.5 6.7 Z M 17 17 L 14 17 L 14 12.3 C 14 11.2 13.8 9.8 12.2 9.8 C 10.6 9.8 10.4 11.1 10.4 12.2 L 10.4 17 L 7.4 17 L 7.4 8 L 10.3 8 L 10.3 9.2 L 10.3 9.2 C 10.7 8.5 11.6 7.8 13 7.8 C 16 7.8 16.6 9.8 16.6 12.4 L 16.6 17 L 17 17 Z" fill="#38BDF8" />
+  </g>
+
+  <!-- Button Label -->
+  <text x="44" y="24" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700" fill="#F8FAFC" letter-spacing="0.5">LinkedIn</text>
+</svg>

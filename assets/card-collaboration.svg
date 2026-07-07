@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 180" width="400" height="180" fill="none">
+  <defs>
+    <linearGradient id="card-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F172A" />
+      <stop offset="100%" stop-color="#070A12" />
+    </linearGradient>
+    <linearGradient id="border-glow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8B5CF6" stop-opacity="0.4" />
+      <stop offset="30%" stop-color="#1E293B" stop-opacity="0.2" />
+      <stop offset="100%" stop-color="#1E293B" stop-opacity="0.1" />
+    </linearGradient>
+    <radialGradient id="glow" cx="0%" cy="0%" r="50%">
+      <stop offset="0%" stop-color="#8B5CF6" stop-opacity="0.15" />
+      <stop offset="100%" stop-color="#8B5CF6" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+
+  <!-- Card Background -->
+  <rect width="400" height="180" fill="url(#card-bg)" rx="12" />
+  
+  <!-- Glowing Overlay -->
+  <rect width="400" height="180" fill="url(#glow)" rx="12" />
+
+  <!-- Outer Border with Gradient -->
+  <rect x="0.5" y="0.5" width="399" height="179" rx="11.5" stroke="url(#border-glow)" stroke-width="1" />
+
+  <!-- Title -->
+  <text x="24" y="38" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="700" fill="#F8FAFC" letter-spacing="1">Collaboration</text>
+
+  <!-- User Group Icon -->
+  <g transform="translate(340, 24)">
+    <circle cx="8" cy="8" r="4" stroke="#8B5CF6" stroke-width="1.8" fill="none" />
+    <path d="M 1 18 A 7 7 0 0 1 15 18" stroke="#8B5CF6" stroke-width="1.8" fill="none" stroke-linecap="round" />
+    <circle cx="16" cy="9" r="3" stroke="#8B5CF6" stroke-width="1.5" fill="none" />
+    <path d="M 11 18 A 5 5 0 0 1 21 18" stroke="#8B5CF6" stroke-width="1.5" fill="none" stroke-linecap="round" />
+  </g>
+
+  <!-- Body Text -->
+  <text font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="400" fill="#94A3B8">
+    <tspan x="24" y="74">Relentlessly open to collaborating on open-source</tspan>
+    <tspan x="24" y="96">AI tools, complex machine learning platforms,</tspan>
+    <tspan x="24" y="118">full-stack web systems, or innovative UI/UX design</tspan>
+    <tspan x="24" y="140">experiments. Let's connect and build the next big idea!</tspan>
+  </text>
+</svg>

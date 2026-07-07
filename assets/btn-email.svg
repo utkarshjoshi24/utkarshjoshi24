@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 135 38" width="135" height="38" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F172A" />
+      <stop offset="100%" stop-color="#070A12" />
+    </linearGradient>
+  </defs>
+
+  <!-- Button Background -->
+  <rect width="135" height="38" fill="url(#bg)" rx="8" />
+  <rect x="0.5" y="0.5" width="134" height="37" rx="7.5" stroke="#38BDF8" stroke-opacity="0.4" stroke-width="1" />
+
+  <!-- Email (Envelope) Icon -->
+  <g transform="translate(14, 9)">
+    <rect x="1" y="2" width="18" height="14" rx="3" stroke="#38BDF8" stroke-width="1.8" fill="none" />
+    <path d="M 2 4 L 10 10 L 18 4" stroke="#38BDF8" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+  </g>
+
+  <!-- Button Label -->
+  <text x="44" y="24" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700" fill="#F8FAFC" letter-spacing="0.5">Email</text>
+</svg>

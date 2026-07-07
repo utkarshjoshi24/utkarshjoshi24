@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 135 38" width="135" height="38" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F172A" />
+      <stop offset="100%" stop-color="#070A12" />
+    </linearGradient>
+  </defs>
+
+  <!-- Button Background -->
+  <rect width="135" height="38" fill="url(#bg)" rx="8" />
+  <rect x="0.5" y="0.5" width="134" height="37" rx="7.5" stroke="#8B5CF6" stroke-opacity="0.4" stroke-width="1" />
+
+  <!-- Portfolio (Globe) Icon -->
+  <g transform="translate(14, 9)">
+    <circle cx="10" cy="10" r="9" stroke="#8B5CF6" stroke-width="1.8" fill="none" />
+    <path d="M 1 10 L 19 10" stroke="#8B5CF6" stroke-width="1.8" />
+    <path d="M 10 1 A 9 9 0 0 0 10 19" stroke="#8B5CF6" stroke-width="1.8" fill="none" />
+    <path d="M 10 1 A 9 9 0 0 1 10 19" stroke="#8B5CF6" stroke-width="1.8" fill="none" />
+  </g>
+
+  <!-- Button Label -->
+  <text x="44" y="24" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700" fill="#F8FAFC" letter-spacing="0.5">Portfolio</text>
+</svg>

@@ -1,0 +1,147 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 40" width="600" height="40" fill="none">
+  <style>
+    .text-base {
+      font-family: 'JetBrains Mono', 'Fira Code', 'Courier New', monospace;
+      font-size: 18px;
+      font-weight: 500;
+      fill: #38BDF8;
+    }
+    
+    .cursor {
+      fill: #8B5CF6;
+      animation: blink 0.8s infinite;
+    }
+
+    @keyframes blink {
+      0%, 100% { opacity: 0; }
+      50% { opacity: 1; }
+    }
+
+    /* Group animations */
+    .g1 { animation: cycle1 16s infinite; }
+    .g2 { animation: cycle2 16s infinite; }
+    .g3 { animation: cycle3 16s infinite; }
+    .g4 { animation: cycle4 16s infinite; }
+
+    .clip-rect {
+      animation: type-clip 16s infinite;
+    }
+
+    @keyframes type-clip {
+      0% { width: 0; }
+      /* Active phase (4s total per text: type 1.2s, hold 2.3s, erase 0.5s) */
+      7.5% { width: 350px; } /* type (covers longest text) */
+      21.875% { width: 350px; } /* hold */
+      25% { width: 0; } /* erase */
+      100% { width: 0; }
+    }
+
+    /* Adjust animations for each text */
+    @keyframes cycle1 {
+      0% { opacity: 1; visibility: visible; }
+      24.9% { opacity: 1; visibility: visible; }
+      25% { opacity: 0; visibility: hidden; }
+      100% { opacity: 0; visibility: hidden; }
+    }
+    @keyframes cycle2 {
+      0%, 24.9% { opacity: 0; visibility: hidden; }
+      25% { opacity: 1; visibility: visible; }
+      49.9% { opacity: 1; visibility: visible; }
+      50% { opacity: 0; visibility: hidden; }
+      100% { opacity: 0; visibility: hidden; }
+    }
+    @keyframes cycle3 {
+      0%, 49.9% { opacity: 0; visibility: hidden; }
+      50% { opacity: 1; visibility: visible; }
+      74.9% { opacity: 1; visibility: visible; }
+      75% { opacity: 0; visibility: hidden; }
+      100% { opacity: 0; visibility: hidden; }
+    }
+    @keyframes cycle4 {
+      0%, 74.9% { opacity: 0; visibility: hidden; }
+      75% { opacity: 1; visibility: visible; }
+      99.9% { opacity: 1; visibility: visible; }
+      100% { opacity: 0; visibility: hidden; }
+    }
+
+    /* Cursor X movement based on typing steps */
+    .c1 { animation: cursor1 16s infinite; }
+    .c2 { animation: cursor2 16s infinite; }
+    .c3 { animation: cursor3 16s infinite; }
+    .c4 { animation: cursor4 16s infinite; }
+
+    /* For monospace font-size 18px: letter width is ~10.8px */
+    @keyframes cursor1 {
+      0% { transform: translateX(0px); opacity: 1; }
+      7.5%, 21.875% { transform: translateX(184px); opacity: 1; } /* "Software Engineer" (17 chars * 10.8) */
+      24.9% { transform: translateX(0px); opacity: 1; }
+      25%, 100% { opacity: 0; }
+    }
+    @keyframes cursor2 {
+      0%, 24.9% { opacity: 0; }
+      25% { transform: translateX(0px); opacity: 1; }
+      32.5%, 46.875% { transform: translateX(130px); opacity: 1; } /* "AI Developer" (12 chars * 10.8) */
+      49.9% { transform: translateX(0px); opacity: 1; }
+      50%, 100% { opacity: 0; }
+    }
+    @keyframes cursor3 {
+      0%, 49.9% { opacity: 0; }
+      50% { transform: translateX(0px); opacity: 1; }
+      57.5%, 71.875% { transform: translateX(292px); opacity: 1; } /* "Machine Learning Enthusiast" (27 chars * 10.8) */
+      74.9% { transform: translateX(0px); opacity: 1; }
+      75%, 100% { opacity: 0; }
+    }
+    @keyframes cursor4 {
+      0%, 74.9% { opacity: 0; }
+      75% { transform: translateX(0px); opacity: 1; }
+      82.5%, 96.875% { transform: translateX(216px); opacity: 1; } /* "Full Stack Developer" (20 chars * 10.8) */
+      99.9% { transform: translateX(0px); opacity: 1; }
+      100% { opacity: 0; }
+    }
+  </style>
+
+  <defs>
+    <clipPath id="clip1">
+      <rect class="clip-rect" x="0" y="-20" width="0" height="40" />
+    </clipPath>
+    <clipPath id="clip2">
+      <rect class="clip-rect" x="0" y="-20" width="0" height="40" style="animation-delay: 4s;" />
+    </clipPath>
+    <clipPath id="clip3">
+      <rect class="clip-rect" x="0" y="-20" width="0" height="40" style="animation-delay: 8s;" />
+    </clipPath>
+    <clipPath id="clip4">
+      <rect class="clip-rect" x="0" y="-20" width="0" height="40" style="animation-delay: 12s;" />
+    </clipPath>
+  </defs>
+
+  <!-- We translate the group to visually center the text block. 
+       "Machine Learning Enthusiast" is our longest text (~292px wide).
+       To center the text block within the 600px canvas, we start at X = 154 (which centers it: (600 - 292)/2 = 154).
+  -->
+  <g transform="translate(154, 26)">
+    <!-- Software Engineer -->
+    <g class="g1">
+      <text class="text-base" x="0" y="0" text-anchor="start" clip-path="url(#clip1)">Software Engineer</text>
+      <rect class="cursor c1" x="5" y="-16" width="2" height="18" rx="1" />
+    </g>
+
+    <!-- AI Developer -->
+    <g class="g2">
+      <text class="text-base" x="0" y="0" text-anchor="start" clip-path="url(#clip2)">AI Developer</text>
+      <rect class="cursor c2" x="5" y="-16" width="2" height="18" rx="1" />
+    </g>
+
+    <!-- Machine Learning Enthusiast -->
+    <g class="g3">
+      <text class="text-base" x="0" y="0" text-anchor="start" clip-path="url(#clip3)">Machine Learning Enthusiast</text>
+      <rect class="cursor c3" x="5" y="-16" width="2" height="18" rx="1" />
+    </g>
+
+    <!-- Full Stack Developer -->
+    <g class="g4">
+      <text class="text-base" x="0" y="0" text-anchor="start" clip-path="url(#clip4)">Full Stack Developer</text>
+      <rect class="cursor c4" x="5" y="-16" width="2" height="18" rx="1" />
+    </g>
+  </g>
+</svg>

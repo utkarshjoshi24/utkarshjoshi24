@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 80" width="840" height="80" fill="none">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F172A" />
+      <stop offset="100%" stop-color="#05070F" />
+    </linearGradient>
+
+    <!-- Wave Gradients -->
+    <linearGradient id="wave-glow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0" />
+      <stop offset="30%" stop-color="#38BDF8" stop-opacity="0.3" />
+      <stop offset="50%" stop-color="#8B5CF6" stop-opacity="0.4" />
+      <stop offset="70%" stop-color="#38BDF8" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#38BDF8" stop-opacity="0" />
+    </linearGradient>
+
+    <!-- Border Glow -->
+    <linearGradient id="border-glow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.2" />
+      <stop offset="50%" stop-color="#8B5CF6" stop-opacity="0.1" />
+      <stop offset="100%" stop-color="#38BDF8" stop-opacity="0.2" />
+    </linearGradient>
+  </defs>
+
+  <!-- Card Background & Border -->
+  <rect width="840" height="80" fill="url(#bg)" rx="12" />
+  <rect x="0.5" y="0.5" width="839" height="79" rx="11.5" stroke="url(#border-glow)" stroke-width="1" />
+
+  <!-- Animated Wave Path at top edge -->
+  <path d="M 0,20 Q 210,5 420,20 T 840,20 L 840,0 L 0,0 Z" fill="url(#wave-glow)" opacity="0.3">
+    <animate attributeName="d" 
+             values="M 0,20 Q 210,5 420,20 T 840,20 L 840,0 L 0,0 Z;
+                     M 0,20 Q 210,35 420,20 T 840,20 L 840,0 L 0,0 Z;
+                     M 0,20 Q 210,5 420,20 T 840,20 L 840,0 L 0,0 Z" 
+             dur="8s" 
+             repeatCount="indefinite" />
+  </path>
+
+  <!-- Thank You Text -->
+  <text x="50%" y="46" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700" fill="#94A3B8" letter-spacing="3.5">THANK YOU FOR VISITING • KEEP BUILDING</text>
+
+  <!-- Fine Glow line under text -->
+  <line x1="380" y1="58" x2="460" y2="58" stroke="#8B5CF6" stroke-width="1" stroke-opacity="0.4" />
+</svg>

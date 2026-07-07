@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 140" width="840" height="140" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F172A" />
+      <stop offset="100%" stop-color="#070A12" />
+    </linearGradient>
+    <linearGradient id="border-glow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#8B5CF6" stop-opacity="0.15" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="840" height="140" fill="url(#bg)" rx="12" />
+  <rect x="0.5" y="0.5" width="839" height="139" rx="11.5" stroke="url(#border-glow)" stroke-width="1" />
+
+  <!-- Background Decorative Double Quotes -->
+  <text x="35" y="85" font-family="Georgia, serif" font-size="90" font-weight="bold" fill="#38BDF8" fill-opacity="0.08">“</text>
+  <text x="770" y="130" font-family="Georgia, serif" font-size="90" font-weight="bold" fill="#8B5CF6" fill-opacity="0.08">”</text>
+
+  <!-- Quote Lines -->
+  <text font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14.5" font-style="italic" font-weight="400" fill="#F8FAFC" text-anchor="middle">
+    <tspan x="420" y="52">"Code is not just instructions for machines; it is a canvas where logic meets creativity.</tspan>
+    <tspan x="420" y="76">True craftsmanship lies in making the complex feel simple and the functional feel beautiful."</tspan>
+  </text>
+
+  <!-- Author Signature -->
+  <text x="420" y="108" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700" fill="#8B5CF6" letter-spacing="1.5" text-anchor="middle">UTKARSH JOSHI</text>
+</svg>

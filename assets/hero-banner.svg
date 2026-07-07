@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 300" width="840" height="300" fill="none">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#05070F" />
+      <stop offset="50%" stop-color="#090D1A" />
+      <stop offset="100%" stop-color="#0F172A" />
+    </linearGradient>
+
+    <!-- Glowing Orbs Gradients -->
+    <radialGradient id="glow-purple" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#8B5CF6" stop-opacity="0.25" />
+      <stop offset="100%" stop-color="#8B5CF6" stop-opacity="0" />
+    </radialGradient>
+
+    <radialGradient id="glow-blue" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.2" />
+      <stop offset="100%" stop-color="#38BDF8" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Line Gradient -->
+    <linearGradient id="line-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0" />
+      <stop offset="25%" stop-color="#38BDF8" stop-opacity="1" />
+      <stop offset="50%" stop-color="#8B5CF6" stop-opacity="1" />
+      <stop offset="75%" stop-color="#38BDF8" stop-opacity="1" />
+      <stop offset="100%" stop-color="#38BDF8" stop-opacity="0" />
+    </linearGradient>
+
+    <!-- Grid Pattern -->
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#F8FAFC" stroke-opacity="0.03" stroke-width="1" />
+    </pattern>
+  </defs>
+
+  <!-- Base Background -->
+  <rect width="840" height="300" fill="url(#bg)" rx="16" />
+
+  <!-- Animated Glowing Orbs -->
+  <circle cx="200" cy="100" r="250" fill="url(#glow-purple)">
+    <animate attributeName="cx" values="200;250;150;200" dur="15s" repeatCount="indefinite" />
+    <animate attributeName="cy" values="100;180;120;100" dur="15s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="640" cy="200" r="280" fill="url(#glow-blue)">
+    <animate attributeName="cx" values="640;580;700;640" dur="18s" repeatCount="indefinite" />
+    <animate attributeName="cy" values="200;120;250;200" dur="18s" repeatCount="indefinite" />
+  </circle>
+
+  <!-- Grid Overlay -->
+  <rect width="840" height="300" fill="url(#grid)" rx="16" />
+
+  <!-- Abstract Design Lines -->
+  <path d="M-20,150 Q210,50 420,150 T860,150" fill="none" stroke="url(#line-grad)" stroke-width="1.5" stroke-opacity="0.3">
+    <animate attributeName="stroke-dasharray" values="10,1000;1000,10;10,1000" dur="12s" repeatCount="indefinite" />
+  </path>
+  <path d="M-20,160 Q210,260 420,160 T860,160" fill="none" stroke="url(#line-grad)" stroke-width="1" stroke-opacity="0.2">
+    <animate attributeName="stroke-dasharray" values="5,500;500,5;5,500" dur="16s" repeatCount="indefinite" />
+  </path>
+
+  <!-- Content Group -->
+  <g transform="translate(0, 0)">
+    <!-- Subtitle Category Badges -->
+    <g transform="translate(330, 60)">
+      <rect x="0" y="0" width="180" height="24" rx="12" fill="#1E293B" fill-opacity="0.6" stroke="#38BDF8" stroke-opacity="0.3" stroke-width="1" />
+      <circle cx="16" cy="12" r="4" fill="#38BDF8">
+        <animate attributeName="opacity" values="0.3;1;0.3" dur="2s" repeatCount="indefinite" />
+      </circle>
+      <text x="30" y="16" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="600" fill="#38BDF8" letter-spacing="1.5">BUILDING FOR THE FUTURE</text>
+    </g>
+
+    <!-- Main Title -->
+    <text x="50%" y="145" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif" font-size="46" font-weight="800" fill="#F8FAFC" letter-spacing="8">UTKARSH JOSHI</text>
+    
+    <!-- Sub-headline -->
+    <text x="50%" y="185" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="500" fill="#94A3B8" letter-spacing="4">SOFTWARE ENGINEER • AI DEVELOPER</text>
+
+    <!-- Glowing Accent Line -->
+    <line x1="320" y1="210" x2="520" y2="210" stroke="url(#line-grad)" stroke-width="2" stroke-linecap="round" />
+  </g>
+
+  <!-- Border -->
+  <rect x="0.5" y="0.5" width="839" height="299" rx="15.5" stroke="#334155" stroke-opacity="0.3" fill="none" />
+</svg>
