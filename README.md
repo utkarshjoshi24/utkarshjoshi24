@@ -179,7 +179,7 @@ An aggregated live view of codebase metrics, streaks, trophies, and development 
   <tr>
     <td colspan="2" align="center" style="border: none; padding: 4px; padding-top: 12px;">
       <a href="https://github.com/utkarshjoshi24">
-        <img src="https://streak-stats.demolab.com/?user=utkarshjoshi24&theme=radical&background=0A0D1B&fire=FF2E93&ring=00F2FE&currStreakLabel=94A3B8&sideNums=F8FAFC&sideLabels=94A3B8&dates=64748B&border=1E293B&stroke=1E293B" alt="GitHub Streak Stats" width="100%" />
+        <img src="https://streak-stats.vercel.app/?user=utkarshjoshi24&theme=radical&background=0A0D1B&fire=FF2E93&ring=00F2FE&currStreakLabel=94A3B8&sideNums=F8FAFC&sideLabels=94A3B8&dates=64748B&border=1E293B&stroke=1E293B" alt="GitHub Streak Stats" width="100%" />
       </a>
     </td>
   </tr>
