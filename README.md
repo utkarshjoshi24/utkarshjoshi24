@@ -148,22 +148,45 @@ Curated technical pillars representing core competencies in production systems:
 
 <br /><br /><br />
 
-## 📊 Repository Metrics
+## 📊 GitHub Metrics Dashboard
 
-A clean aggregation of active codebase metrics, language distributions, and contribution history:
+An aggregated live view of codebase metrics, streaks, trophies, and development activity:
+
+<br />
+
+<div align="center">
+  <!-- TROPHY PANEL -->
+  <a href="https://github.com/utkarshjoshi24">
+    <img src="https://github-profile-trophy.vercel.app/?username=utkarshjoshi24&theme=dracula&no-bg=true&no-frame=true&margin-w=12&margin-h=12&column=6" alt="GitHub Trophies" width="100%" />
+  </a>
+</div>
 
 <br />
 
 <table border="0" cellpadding="0" cellspacing="0" width="100%">
   <tr>
-    <td width="50%" align="center" style="border: none; padding: 6px;">
+    <td width="50%" align="center" style="border: none; padding: 4px;">
       <a href="https://github.com/utkarshjoshi24">
-        <img src="https://github-readme-stats.vercel.app/api?username=utkarshjoshi24&show_icons=true&title_color=38BDF8&icon_color=8B5CF6&text_color=94A3B8&bg_color=0F172A&border_color=1E293B&border_radius=12" alt="GitHub Stats Card" width="98%" />
+        <img src="https://github-readme-stats.vercel.app/api?username=utkarshjoshi24&show_icons=true&title_color=00F2FE&icon_color=FF2E93&text_color=94A3B8&bg_color=0A0D1B&border_color=1E293B&border_radius=12" alt="GitHub Stats Card" width="98%" />
       </a>
     </td>
-    <td width="50%" align="center" style="border: none; padding: 6px;">
+    <td width="50%" align="center" style="border: none; padding: 4px;">
       <a href="https://github.com/utkarshjoshi24">
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=utkarshjoshi24&layout=compact&title_color=38BDF8&icon_color=8B5CF6&text_color=94A3B8&bg_color=0F172A&border_color=1E293B&border_radius=12" alt="Top Languages Card" width="98%" />
+        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=utkarshjoshi24&layout=compact&title_color=00F2FE&icon_color=FF2E93&text_color=94A3B8&bg_color=0A0D1B&border_color=1E293B&border_radius=12" alt="Top Languages Card" width="98%" />
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center" style="border: none; padding: 4px; padding-top: 12px;">
+      <a href="https://github.com/utkarshjoshi24">
+        <img src="https://github-readme-streak-stats.herokuapp.com/?user=utkarshjoshi24&theme=radical&background=0A0D1B&fire=FF2E93&ring=00F2FE&currStreakLabel=94A3B8&sideNums=F8FAFC&sideLabels=94A3B8&dates=64748B&border=1E293B&stroke=1E293B" alt="GitHub Streak Stats" width="100%" />
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center" style="border: none; padding: 4px; padding-top: 12px;">
+      <a href="https://github.com/utkarshjoshi24">
+        <img src="https://github-contributor-stats.vercel.app/api?username=utkarshjoshi24&limit=5&theme=dark&combine_all_yearly_contributions=true&bg_color=0A0D1B&title_color=00F2FE&text_color=94A3B8&border_color=1E293B" alt="Top Contributed Repositories" width="100%" />
       </a>
     </td>
   </tr>
